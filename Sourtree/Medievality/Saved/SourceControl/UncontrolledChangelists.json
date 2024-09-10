@@ -5,7 +5,35 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Medievality_1.umap",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Night_03_Moonless.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Night_02_Moonless.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Night_01_Moonless.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Night_02.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Night_01.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Night_03.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/cubemapmat.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/Domo.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_01.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_02.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_03.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_04.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_05.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_06.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_01_Sunless.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_03_Sunless.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_04_Sunless.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_05_Sunless.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Domo/FS000_Day_06_Sunless.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/MaterialPiso/Automaterial.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/MaterialPiso/Dirt.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/MaterialPiso/grass.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/MaterialPiso/Path.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/MaterialPiso/Grass2.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Blueprint/WBP_Interfaz.uasset",
+				"C:/Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/cubemapmat.uasset"
 			]
 		}
 	]
