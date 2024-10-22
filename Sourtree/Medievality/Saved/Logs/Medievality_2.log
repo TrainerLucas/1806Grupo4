@@ -1298,3 +1298,7 @@ The project directory:
 [2024.10.14-23.18.55:084][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
 [2024.10.14-23.20.40:268][  0]LogDerivedDataCache: C:/Users/santi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.428 and deleted 0 files with total size 0 MiB. Scanned 4891 files in 4848 folders with total size 477 MiB.
 [2024.10.15-00.20.41:020][  0]LogDerivedDataCache: C:/Users/santi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.177 and deleted 0 files with total size 0 MiB. Scanned 5097 files in 5047 folders with total size 484 MiB.
+<<<<<<< HEAD
+=======
+[2024.10.15-00.39.21:741][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+>>>>>>> Rino
