@@ -1366,3 +1366,25 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.12.09-23.24.53:670][633]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049207s
 [2024.12.09-23.24.57:885][633]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002285s (4.261958s overbudget)
 [2024.12.09-23.24.57:956][633]LogSlate: Took 0.014865 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: ================================================
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: Total job queries 77, among them cache hits 9 (11.69%)
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: Tracking 68 distinct input hashes that result in 40 distinct outputs (58.82%)
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: RAM used: 0.42 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.05%
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.12.09-23.26.40:490][107]LogShaderCompilers: Display: ================================================
+[2024.12.09-23.27.08:674][792]LogViewport: Scene viewport resized to 1172x734, mode Windowed.
+[2024.12.09-23.28.24:651][893]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2024.12.09-23.28.24:656][893]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Medievality_1' took 0.125
+[2024.12.09-23.28.24:664][893]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.09-23.28.24:716][893]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Miscosas/Blueprint/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2024.12.09-23.28.24:729][893]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Miscosas/Blueprint/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.09-23.28.24:729][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter]
+[2024.12.09-23.28.24:756][893]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.021435 seconds
+[2024.12.09-23.28.24:811][893]LogSerialization: UsePackageTrailer: 'true'
+[2024.12.09-23.28.24:842][893]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto1
+[2024.12.09-23.28.24:845][893]LogSavePackage: Moving '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/BP_ThirdPersonCharacter_Auto10BF20FCB41B1D6725DFF219F193DB1BF.tmp' to '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto1.uasset'
+[2024.12.09-23.28.24:855][893]LogFileHelpers: Auto-saving content packages took 0.195
