@@ -1395,3 +1395,577 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.12.09-23.29.59:208][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 387 ms
 [2024.12.09-23.29.59:223][210]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
 [2024.12.09-23.29.59:224][210]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Miscosas/Blueprint/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.12.09-23.31.30:674][742]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.12.09-23.31.30:942][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2024.12.09-23.31.32:867][768]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.31.32:886][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.31.32:886][768]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:31:32)
+[2024.12.09-23.31.32:886][768]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.31.32:910][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024283s)
+[2024.12.09-23.31.32:910][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.024381s)
+[2024.12.09-23.31.32:910][768]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.31.32:911][768]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.31.32:912][768]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2024.12.09-23.31.32:984][768]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2024.12.09-23.31.32:991][768]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.12.09-23.31.32:992][768]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.31.32:992][768]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.31.32:992][768]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.31.32:992][768]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.31.32:992][768]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.31.32:992][768]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.31.32:992][768]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.31.32:992][768]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.31.32:992][768]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.31.32:992][768]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.31.32:992][768]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.31.32:996][768]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.31.33:162][768]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.31.33:163][768]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.31.33:163][768]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.31.33:163][768]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.31.33:164][768]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.12.09-23.31.33:164][768]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2024.12.09-23.31.33:169][768]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.12.09-23.31.33:170][768]LogInit: FAudioDevice initialized.
+[2024.12.09-23.31.33:170][768]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.12.09-23.31.33:170][768]LogAudio: Display: Audio Device (ID: 3) registered with world 'Medievality_1'.
+[2024.12.09-23.31.33:176][768]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.31.33:184][768]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 0) at 2024.12.09-20.31.33
+[2024.12.09-23.31.33:184][768]LogWorld: Bringing up level for play took: 0.007949
+[2024.12.09-23.31.33:188][768]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.12.09-23.31.33:194][768]PIE: Server logged in
+[2024.12.09-23.31.33:195][768]PIE: Play in editor total start time 0,31 seconds.
+[2024.12.09-23.31.34:643][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.31.34:643][809]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.31.34:643][809]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.31.34:644][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.31.34:685][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.31.34:695][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.31.34:761][809]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.09-23.31.34:761][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.12.09-23.31.34:764][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.12.09-23.31.34:793][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.31.34:800][809]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2024.12.09-23.31.34:903][810]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.12.09-23.31.58:115][184]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.12.09-23.31.58:320][184]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2024.12.09-23.32.01:179][233]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.32.01:195][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.32.01:195][233]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:32:01)
+[2024.12.09-23.32.01:195][233]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.32.01:220][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024524s)
+[2024.12.09-23.32.01:220][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.024605s)
+[2024.12.09-23.32.01:220][233]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.32.01:221][233]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.32.01:221][233]LogPlayLevel: PIE: World Init took: (0.001607s)
+[2024.12.09-23.32.01:290][233]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2024.12.09-23.32.01:304][233]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.12.09-23.32.01:304][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.32.01:304][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.32.01:304][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.32.01:304][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.32.01:304][233]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.32.01:304][233]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.32.01:304][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.32.01:304][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.32.01:305][233]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.32.01:305][233]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.32.01:305][233]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.32.01:309][233]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.32.01:467][233]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.32.01:467][233]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.32.01:467][233]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.32.01:467][233]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.32.01:469][233]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.12.09-23.32.01:469][233]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2024.12.09-23.32.01:472][233]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.12.09-23.32.01:472][233]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.12.09-23.32.01:472][233]LogInit: FAudioDevice initialized.
+[2024.12.09-23.32.01:472][233]LogAudio: Display: Audio Device (ID: 4) registered with world 'Medievality_1'.
+[2024.12.09-23.32.01:478][233]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.32.01:486][233]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 0) at 2024.12.09-20.32.01
+[2024.12.09-23.32.01:486][233]LogWorld: Bringing up level for play took: 0.007535
+[2024.12.09-23.32.01:490][233]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.12.09-23.32.01:499][233]PIE: Server logged in
+[2024.12.09-23.32.01:501][233]PIE: Play in editor total start time 0,306 seconds.
+[2024.12.09-23.32.05:225][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.32.05:225][341]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.32.05:225][341]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.32.05:227][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.32.05:253][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.32.05:264][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.32.05:331][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.32.05:332][341]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.12.09-23.32.05:334][341]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.12.09-23.32.05:371][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2024.12.09-23.32.05:481][342]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.12.09-23.32.47:600][276]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.32.47:618][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.32.47:618][276]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:32:47)
+[2024.12.09-23.32.47:618][276]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.32.47:645][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026383s)
+[2024.12.09-23.32.47:645][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.026448s)
+[2024.12.09-23.32.47:646][276]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.32.47:646][276]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.32.47:646][276]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2024.12.09-23.32.47:716][276]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2024.12.09-23.32.47:724][276]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.12.09-23.32.47:724][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.32.47:724][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.32.47:724][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.32.47:724][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.32.47:724][276]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.32.47:724][276]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.32.47:724][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.32.47:724][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.32.47:725][276]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.32.47:725][276]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.32.47:725][276]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.32.47:729][276]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.32.47:878][276]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.32.47:879][276]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.32.47:879][276]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.32.47:879][276]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.32.47:880][276]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.12.09-23.32.47:880][276]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2024.12.09-23.32.47:884][276]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.12.09-23.32.47:884][276]LogInit: FAudioDevice initialized.
+[2024.12.09-23.32.47:884][276]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.12.09-23.32.47:884][276]LogAudio: Display: Audio Device (ID: 5) registered with world 'Medievality_1'.
+[2024.12.09-23.32.47:890][276]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.32.47:896][276]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 0) at 2024.12.09-20.32.47
+[2024.12.09-23.32.47:896][276]LogWorld: Bringing up level for play took: 0.005674
+[2024.12.09-23.32.47:900][276]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.12.09-23.32.47:905][276]PIE: Server logged in
+[2024.12.09-23.32.47:906][276]PIE: Play in editor total start time 0,288 seconds.
+[2024.12.09-23.32.51:444][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.32.51:445][416]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.32.51:445][416]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.32.51:446][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.32.51:470][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.32.51:480][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.32.51:548][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.32.51:548][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.12.09-23.32.51:552][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.12.09-23.32.51:584][416]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2024.12.09-23.32.51:703][417]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.12.09-23.34.00:099][690]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2024.12.09-23.34.00:102][690]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Medievality_1' took 0.083
+[2024.12.09-23.34.00:104][690]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.09-23.34.00:118][690]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Miscosas/Blueprint/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.09-23.34.00:118][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter]
+[2024.12.09-23.34.00:194][690]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto2
+[2024.12.09-23.34.00:196][690]LogSavePackage: Moving '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/BP_ThirdPersonCharacter_Auto281CEA2524680B0E3A059D49629B954EF.tmp' to '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto2.uasset'
+[2024.12.09-23.34.00:199][690]LogFileHelpers: Auto-saving content packages took 0.096
+[2024.12.09-23.34.19:969][956]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.12.09-23.34.20:175][956]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2024.12.09-23.34.21:728][982]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.34.21:744][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.34.21:744][982]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:34:21)
+[2024.12.09-23.34.21:773][982]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.34.21:793][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021283s)
+[2024.12.09-23.34.21:793][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.021386s)
+[2024.12.09-23.34.21:793][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.34.21:795][982]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.34.21:795][982]LogPlayLevel: PIE: World Init took: (0.001581s)
+[2024.12.09-23.34.21:863][982]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2024.12.09-23.34.21:873][982]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.12.09-23.34.21:873][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.34.21:873][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.34.21:873][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.34.21:873][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.34.21:873][982]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.34.21:873][982]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.34.21:873][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.34.21:873][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.34.21:874][982]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.34.21:874][982]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.34.21:874][982]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.34.21:878][982]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.34.22:069][982]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.34.22:070][982]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.34.22:070][982]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.34.22:070][982]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.34.22:071][982]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.12.09-23.34.22:071][982]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2024.12.09-23.34.22:075][982]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.12.09-23.34.22:075][982]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.12.09-23.34.22:075][982]LogInit: FAudioDevice initialized.
+[2024.12.09-23.34.22:075][982]LogAudio: Display: Audio Device (ID: 6) registered with world 'Medievality_1'.
+[2024.12.09-23.34.22:081][982]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.34.22:093][982]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 0) at 2024.12.09-20.34.22
+[2024.12.09-23.34.22:093][982]LogWorld: Bringing up level for play took: 0.010743
+[2024.12.09-23.34.22:097][982]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.12.09-23.34.22:103][982]PIE: Server logged in
+[2024.12.09-23.34.22:104][982]PIE: Play in editor total start time 0,359 seconds.
+[2024.12.09-23.34.42:510][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.34.42:510][592]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.34.42:510][592]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.34.42:511][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.34.42:552][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.34.42:563][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.34.42:639][592]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.09-23.34.42:640][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.12.09-23.34.42:644][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.12.09-23.34.42:673][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.34.42:680][592]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2024.12.09-23.34.42:803][593]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.12.09-23.35.31:850][646]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Miscosas/Blueprint/ABP_Caballero.ABP_Caballero
+[2024.12.09-23.35.31:853][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.35.31:934][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.35.32:060][646]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2024.12.09-23.35.32:136][646]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2024.12.09-23.35.32:373][646]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.12.09-23.35.33:854][646]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2024.12.09-23.35.34:072][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: ================================================
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: Total job queries 96, among them cache hits 9 (9.38%)
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: Tracking 87 distinct input hashes that result in 51 distinct outputs (58.62%)
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: RAM used: 0.53 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.06%
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.12.09-23.35.34:075][646]LogShaderCompilers: Display: ================================================
+[2024.12.09-23.35.34:183][646]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002195s (0.332532s overbudget)
+[2024.12.09-23.35.35:142][646]LogSlate: Took 0.021762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.12.09-23.35.35:149][646]LogViewport: Scene viewport resized to 347x376, mode Windowed.
+[2024.12.09-23.35.35:609][646]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.12.09-23.36.07:104][891]LogUObjectHash: Compacting FUObjectHashTables data took   7.09ms
+[2024.12.09-23.36.07:106][891]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Medievality_1' took 0.206
+[2024.12.09-23.36.07:108][891]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.09-23.36.07:156][891]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Miscosas/Blueprint/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.09-23.36.07:156][891]OBJ SavePackage: Finished generating thumbnails for package [/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter]
+[2024.12.09-23.36.07:303][891]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto3
+[2024.12.09-23.36.07:304][891]LogSavePackage: Moving '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/BP_ThirdPersonCharacter_Auto38B5D997A4FEC93BADD49F5BA86C73AAB.tmp' to '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto3.uasset'
+[2024.12.09-23.36.07:318][891]LogFileHelpers: Auto-saving content packages took 0.210
+[2024.12.09-23.36.56:961][552]LogViewport: Scene viewport resized to 160x160, mode Windowed.
+[2024.12.09-23.37.02:898][616]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.37.02:923][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.37.02:923][616]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:37:02)
+[2024.12.09-23.37.02:923][616]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.37.02:949][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025177s)
+[2024.12.09-23.37.02:949][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.025259s)
+[2024.12.09-23.37.02:949][616]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.37.02:950][616]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.37.02:950][616]LogPlayLevel: PIE: World Init took: (0.001845s)
+[2024.12.09-23.37.03:074][616]LogUObjectHash: Compacting FUObjectHashTables data took   6.77ms
+[2024.12.09-23.37.03:079][616]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.12.09-23.37.03:079][616]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.37.03:079][616]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.37.03:079][616]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.37.03:079][616]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.37.03:079][616]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.37.03:079][616]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.37.03:079][616]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.37.03:079][616]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.37.03:080][616]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.37.03:080][616]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.37.03:080][616]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.37.03:084][616]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.37.03:277][616]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.37.03:280][616]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.37.03:280][616]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.37.03:280][616]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.37.03:290][616]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.12.09-23.37.03:290][616]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=7
+[2024.12.09-23.37.03:295][616]LogInit: FAudioDevice initialized.
+[2024.12.09-23.37.03:295][616]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.12.09-23.37.03:295][616]LogAudio: Display: Audio Device (ID: 7) registered with world 'Medievality_1'.
+[2024.12.09-23.37.03:295][616]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.12.09-23.37.03:299][616]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.37.03:306][616]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 60) at 2024.12.09-20.37.03
+[2024.12.09-23.37.03:306][616]LogWorld: Bringing up level for play took: 0.006528
+[2024.12.09-23.37.03:311][616]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.12.09-23.37.03:316][616]PIE: Server logged in
+[2024.12.09-23.37.03:317][616]PIE: Play in editor total start time 0,395 seconds.
+[2024.12.09-23.37.18:439][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.37.18:439][ 62]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.37.18:439][ 62]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.37.18:441][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.37.18:465][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.37.18:487][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.37.18:587][ 62]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.09-23.37.18:587][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.12.09-23.37.18:590][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.12.09-23.37.18:619][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.37.18:627][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2024.12.09-23.37.18:728][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.12.09-23.37.42:211][634]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.37.42:230][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.37.42:231][634]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:37:42)
+[2024.12.09-23.37.42:231][634]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.37.42:259][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027807s)
+[2024.12.09-23.37.42:259][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.027929s)
+[2024.12.09-23.37.42:259][634]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.37.42:260][634]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.37.42:260][634]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2024.12.09-23.37.42:369][634]LogUObjectHash: Compacting FUObjectHashTables data took   6.28ms
+[2024.12.09-23.37.42:375][634]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.12.09-23.37.42:376][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.37.42:376][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.37.42:376][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.37.42:376][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.37.42:376][634]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.37.42:376][634]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.37.42:376][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.37.42:376][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.37.42:376][634]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.37.42:376][634]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.37.42:376][634]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.37.42:381][634]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.37.42:543][634]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.37.42:544][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.37.42:545][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.37.42:545][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.37.42:547][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.12.09-23.37.42:547][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=8
+[2024.12.09-23.37.42:550][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.12.09-23.37.42:550][634]LogInit: FAudioDevice initialized.
+[2024.12.09-23.37.42:550][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.12.09-23.37.42:550][634]LogAudio: Display: Audio Device (ID: 8) registered with world 'Medievality_1'.
+[2024.12.09-23.37.42:557][634]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.37.42:566][634]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 60) at 2024.12.09-20.37.42
+[2024.12.09-23.37.42:566][634]LogWorld: Bringing up level for play took: 0.009646
+[2024.12.09-23.37.42:572][634]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.12.09-23.37.42:578][634]PIE: Server logged in
+[2024.12.09-23.37.42:579][634]PIE: Play in editor total start time 0,349 seconds.
+[2024.12.09-23.38.08:510][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.38.08:511][578]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.38.08:511][578]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.38.08:513][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.38.08:549][578]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.38.08:565][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.38.08:665][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.38.08:665][578]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.12.09-23.38.08:669][578]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.12.09-23.38.08:714][578]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2024.12.09-23.38.08:821][579]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.12.09-23.38.30:103][127]BlueprintLog: New page: Compile ABP_Caballero
+[2024.12.09-23.38.30:318][127]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2024.12.09-23.39.21:852][300]BlueprintLog: New page: Compile ABP_Caballero
+[2024.12.09-23.39.22:015][300]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2024.12.09-23.39.52:198][ 20]BlueprintLog: New page: Compile ABP_Caballero
+[2024.12.09-23.39.52:389][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2024.12.09-23.40.11:439][479]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.40.11:457][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.40.11:457][479]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:40:11)
+[2024.12.09-23.40.11:457][479]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.40.11:483][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025188s)
+[2024.12.09-23.40.11:483][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.025276s)
+[2024.12.09-23.40.11:483][479]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.40.11:484][479]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.40.11:485][479]LogPlayLevel: PIE: World Init took: (0.001973s)
+[2024.12.09-23.40.11:585][479]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2024.12.09-23.40.11:587][479]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.12.09-23.40.11:587][479]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.40.11:587][479]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.40.11:587][479]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.40.11:588][479]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.40.11:588][479]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.40.11:588][479]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.40.11:588][479]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.40.11:588][479]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.40.11:588][479]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.40.11:588][479]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.40.11:588][479]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.40.11:592][479]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.40.11:761][479]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.40.11:762][479]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.40.11:762][479]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.40.11:762][479]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.40.11:764][479]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.12.09-23.40.11:765][479]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=9
+[2024.12.09-23.40.11:769][479]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.12.09-23.40.11:769][479]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.12.09-23.40.11:769][479]LogInit: FAudioDevice initialized.
+[2024.12.09-23.40.11:769][479]LogAudio: Display: Audio Device (ID: 9) registered with world 'Medievality_1'.
+[2024.12.09-23.40.11:776][479]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.40.11:786][479]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 60) at 2024.12.09-20.40.11
+[2024.12.09-23.40.11:787][479]LogWorld: Bringing up level for play took: 0.010018
+[2024.12.09-23.40.11:792][479]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.12.09-23.40.11:802][479]PIE: Server logged in
+[2024.12.09-23.40.11:804][479]PIE: Play in editor total start time 0,347 seconds.
+[2024.12.09-23.40.16:993][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.40.16:993][631]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.40.16:993][631]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.40.16:995][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.40.17:036][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.40.17:055][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.40.17:157][631]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.09-23.40.17:157][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.12.09-23.40.17:162][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.12.09-23.40.17:194][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.40.17:203][631]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2024.12.09-23.40.17:344][632]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.12.09-23.40.27:018][846]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.40.27:036][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.40.27:037][846]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:40:27)
+[2024.12.09-23.40.27:037][846]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.40.27:061][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024943s)
+[2024.12.09-23.40.27:061][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.025041s)
+[2024.12.09-23.40.27:061][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.40.27:063][846]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.40.27:064][846]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2024.12.09-23.40.27:159][846]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2024.12.09-23.40.27:162][846]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.12.09-23.40.27:162][846]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.40.27:162][846]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.40.27:162][846]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.40.27:162][846]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.40.27:162][846]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.40.27:162][846]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.40.27:162][846]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.40.27:162][846]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.40.27:162][846]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.40.27:162][846]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.40.27:162][846]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.40.27:166][846]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.40.27:343][846]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.40.27:344][846]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.40.27:344][846]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.40.27:344][846]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.40.27:346][846]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.12.09-23.40.27:346][846]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=10
+[2024.12.09-23.40.27:349][846]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.12.09-23.40.27:350][846]LogInit: FAudioDevice initialized.
+[2024.12.09-23.40.27:350][846]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.12.09-23.40.27:350][846]LogAudio: Display: Audio Device (ID: 10) registered with world 'Medievality_1'.
+[2024.12.09-23.40.27:357][846]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.40.27:367][846]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 60) at 2024.12.09-20.40.27
+[2024.12.09-23.40.27:367][846]LogWorld: Bringing up level for play took: 0.008987
+[2024.12.09-23.40.27:372][846]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.12.09-23.40.27:379][846]PIE: Server logged in
+[2024.12.09-23.40.27:381][846]PIE: Play in editor total start time 0,345 seconds.
+[2024.12.09-23.40.33:089][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.40.33:089][ 13]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.40.33:091][ 13]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.40.33:092][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.40.33:140][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.40.33:161][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.40.33:266][ 13]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.09-23.40.33:266][ 13]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.12.09-23.40.33:270][ 13]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.12.09-23.40.33:301][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.40.33:310][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2024.12.09-23.40.33:465][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.12.09-23.41.54:063][999]BlueprintLog: New page: Compile ABP_Caballero
+[2024.12.09-23.41.54:242][999]LogUObjectHash: Compacting FUObjectHashTables data took   7.92ms
+[2024.12.09-23.41.56:110][ 29]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.41.56:128][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.41.56:128][ 29]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:41:56)
+[2024.12.09-23.41.56:128][ 29]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.41.56:152][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024370s)
+[2024.12.09-23.41.56:153][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.024444s)
+[2024.12.09-23.41.56:153][ 29]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.41.56:153][ 29]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.41.56:154][ 29]LogPlayLevel: PIE: World Init took: (0.001615s)
+[2024.12.09-23.41.56:272][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   6.96ms
+[2024.12.09-23.41.56:276][ 29]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.12.09-23.41.56:276][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.41.56:276][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.41.56:276][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.41.56:276][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.41.56:276][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.41.56:276][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.41.56:276][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.41.56:276][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.41.56:277][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.41.56:277][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.41.56:277][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.41.56:283][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.41.56:469][ 29]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.41.56:471][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.41.56:471][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.41.56:471][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.41.56:473][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.12.09-23.41.56:473][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2024.12.09-23.41.56:479][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.12.09-23.41.56:479][ 29]LogInit: FAudioDevice initialized.
+[2024.12.09-23.41.56:479][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.12.09-23.41.56:479][ 29]LogAudio: Display: Audio Device (ID: 11) registered with world 'Medievality_1'.
+[2024.12.09-23.41.56:485][ 29]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.41.56:491][ 29]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 60) at 2024.12.09-20.41.56
+[2024.12.09-23.41.56:491][ 29]LogWorld: Bringing up level for play took: 0.006127
+[2024.12.09-23.41.56:496][ 29]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.12.09-23.41.56:502][ 29]PIE: Server logged in
+[2024.12.09-23.41.56:505][ 29]PIE: Play in editor total start time 0,377 seconds.
+[2024.12.09-23.42.05:455][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.42.05:456][292]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.42.05:456][292]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.42.05:457][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.42.05:483][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.42.05:498][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.42.05:602][292]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.09-23.42.05:603][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.12.09-23.42.05:607][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.12.09-23.42.05:634][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.42.05:643][292]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2024.12.09-23.42.05:804][293]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.12.09-23.42.24:398][712]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.09-23.42.24:416][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.09-23.42.24:417][712]PIE: New page: PIE session: Medievality_1 (9 dic. 2024 17:42:24)
+[2024.12.09-23.42.24:417][712]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.42.24:442][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025623s)
+[2024.12.09-23.42.24:442][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Medievality_1.Medievality_1 to /Game/UEDPIE_0_Medievality_1.Medievality_1 (0.025692s)
+[2024.12.09-23.42.24:442][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.09-23.42.24:443][712]LogAIModule: Creating AISystem for world Medievality_1
+[2024.12.09-23.42.24:444][712]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2024.12.09-23.42.24:547][712]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2024.12.09-23.42.24:550][712]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.12.09-23.42.24:550][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.09-23.42.24:550][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.09-23.42.24:550][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.09-23.42.24:550][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.09-23.42.24:550][712]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.09-23.42.24:550][712]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.09-23.42.24:550][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.09-23.42.24:550][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.09-23.42.24:551][712]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.09-23.42.24:551][712]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.09-23.42.24:551][712]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.09-23.42.24:557][712]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.09-23.42.24:728][712]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.09-23.42.24:729][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.09-23.42.24:729][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.09-23.42.24:729][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.09-23.42.24:731][712]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.12.09-23.42.24:731][712]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=12
+[2024.12.09-23.42.24:735][712]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.12.09-23.42.24:735][712]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.12.09-23.42.24:735][712]LogInit: FAudioDevice initialized.
+[2024.12.09-23.42.24:735][712]LogAudio: Display: Audio Device (ID: 12) registered with world 'Medievality_1'.
+[2024.12.09-23.42.24:742][712]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.09-23.42.24:750][712]LogWorld: Bringing World /Game/UEDPIE_0_Medievality_1.Medievality_1 up for play (max tick rate 60) at 2024.12.09-20.42.24
+[2024.12.09-23.42.24:751][712]LogWorld: Bringing up level for play took: 0.008876
+[2024.12.09-23.42.24:757][712]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.12.09-23.42.24:765][712]PIE: Server logged in
+[2024.12.09-23.42.24:767][712]PIE: Play in editor total start time 0,351 seconds.
+[2024.12.09-23.42.36:229][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.42.36:230][167]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Medievality_1
+[2024.12.09-23.42.36:230][167]LogWorld: UWorld::CleanupWorld for Medievality_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-23.42.36:231][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.42.36:239][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.09-23.42.36:253][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-23.42.36:352][167]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.09-23.42.36:352][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.12.09-23.42.36:356][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.12.09-23.42.36:386][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.09-23.42.36:395][167]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2024.12.09-23.42.36:535][168]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.12.09-23.43.48:549][773]BlueprintLog: New page: Compile ABP_Caballero
+[2024.12.09-23.43.48:737][773]LogUObjectHash: Compacting FUObjectHashTables data took   8.13ms
+[2024.12.09-23.44.18:343][945]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2024.12.09-23.44.18:346][945]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Medievality_1' took 0.122
+[2024.12.09-23.44.18:348][945]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.09-23.44.18:348][945]OBJ SavePackage: Finished generating thumbnails for package [/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter]
+[2024.12.09-23.44.18:439][945]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto4
+[2024.12.09-23.44.18:440][945]LogSavePackage: Moving '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/BP_ThirdPersonCharacter_Auto461A4ADDE4FDAD6630FE081910A42814A.tmp' to '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto4.uasset'
+[2024.12.09-23.44.18:444][945]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Miscosas/Blueprint/ABP_Caballero] ([2] browsable assets)...
+[2024.12.09-23.44.18:460][945]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Miscosas/Blueprint/ABP_Caballero.ABP_Caballero]
+[2024.12.09-23.44.18:460][945]OBJ SavePackage: Finished generating thumbnails for package [/Game/Miscosas/Blueprint/ABP_Caballero]
+[2024.12.09-23.44.18:546][945]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Miscosas/Blueprint/ABP_Caballero_Auto4
+[2024.12.09-23.44.18:549][945]LogSavePackage: Moving '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/ABP_Caballero_Auto4A072B5D649480D937A1EB8A269059DC4.tmp' to '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/Autosaves/Game/Miscosas/Blueprint/ABP_Caballero_Auto4.uasset'
+[2024.12.09-23.44.18:553][945]LogFileHelpers: Auto-saving content packages took 0.206
