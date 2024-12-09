@@ -1388,3 +1388,10 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.12.09-23.28.24:842][893]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto1
 [2024.12.09-23.28.24:845][893]LogSavePackage: Moving '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/BP_ThirdPersonCharacter_Auto10BF20FCB41B1D6725DFF219F193DB1BF.tmp' to '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/Autosaves/Game/Miscosas/Blueprint/BP_ThirdPersonCharacter_Auto1.uasset'
 [2024.12.09-23.28.24:855][893]LogFileHelpers: Auto-saving content packages took 0.195
+[2024.12.09-23.29.58:760][210]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2024.12.09-23.29.58:820][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.09-23.29.59:147][210]LogSavePackage: Moving output files for package: /Game/Miscosas/Blueprint/BP_ThirdPersonCharacter
+[2024.12.09-23.29.59:148][210]LogSavePackage: Moving '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Saved/BP_ThirdPersonCharacter3AA5F1A54D1F968D34B41899E23052A8.tmp' to '../../../../../../Users/santi/OneDrive/Escritorio/Proyecto Curso 4/Sourtree/Medievality/Content/Miscosas/Blueprint/BP_ThirdPersonCharacter.uasset'
+[2024.12.09-23.29.59:208][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 387 ms
+[2024.12.09-23.29.59:223][210]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.12.09-23.29.59:224][210]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Miscosas/Blueprint/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
